@@ -3745,6 +3745,17 @@ input, select, textarea {
 			margin-bottom: 0;
 		}
 
+		#nav #contact{
+			width: 2.25rem;
+			height: 2.25rem;
+			line-height: 2.25rem;
+			display: inline-block;
+			text-align: center;
+			border-radius: 100%;
+			font-size: 1.25rem;
+			border-bottom: none;
+		}
+
 		@media screen and (max-width: 980px) {
 
 			#nav {
