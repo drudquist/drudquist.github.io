@@ -2549,6 +2549,12 @@ input, select, textarea {
 		color: #909498 !important;
 	}
 
+	video {
+		display: block;
+		margin: 2.5rem 0;
+		width: 100%;
+	}
+
 /* Icon */
 
 	.icon {
