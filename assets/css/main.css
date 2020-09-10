@@ -3880,12 +3880,12 @@ input, select, textarea {
 			width: 100%;
 			border-top: 2px solid gray;
 		}
-
+/*
 		#main > div.construction div.constructionChild {
 			display: flex;
 			justify-content: center;
 		}
-
+*/
 		#main > div.construction i#constructionLeft {
 			color: red;
 			display: inline;
