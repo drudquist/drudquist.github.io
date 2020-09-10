@@ -3880,26 +3880,28 @@ input, select, textarea {
 			width: 100%;
 			border-top: 2px solid gray;
 		}
-/*
+
 		#main > div.construction div.constructionChild {
 			display: flex;
 			justify-content: center;
 		}
-*/
+
 		#main > div.construction i#constructionLeft {
 			color: red;
 			display: inline;
 			text-align: center;
 			margin: 0 auto;
 			padding: 0 auto;
-			padding-top: 10px;
+			padding-top: 15px;
 			box-sizing: none;
+			font-size: 150%;
 		}
 
 		#main > div.construction p.construction {
 			display: inline;
 			padding: 0 auto;
 			margin: 0 auto;
+			font-size: 150%;
 		}
 
 		#main > div.construction i#constructionRight {
@@ -3907,9 +3909,10 @@ input, select, textarea {
 			display: inline;
 			text-align: center;
 			padding: 0 auto;
-			padding-top: 10px;
+			padding-top: 15px;
 			margin: 0 auto;
 			box-sizing: none;
+			font-size: 150%;
 		}
 
 			#main > .posts > article {
