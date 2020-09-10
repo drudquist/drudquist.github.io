@@ -3873,6 +3873,45 @@ input, select, textarea {
 				width: 50%;
 			}
 
+			
+/* Construction */
+		#main > div.construction {
+			padding: 2rem;
+			width: 100%;
+			border-top: 2px solid gray;
+		}
+
+		#main > div.construction div.constructionChild {
+			display: flex;
+			justify-content: center;
+		}
+
+		#main > div.construction i#constructionLeft {
+			color: red;
+			display: inline;
+			text-align: center;
+			margin: 0 auto;
+			padding: 0 auto;
+			padding-top: 10px;
+			box-sizing: none;
+		}
+
+		#main > div.construction p.construction {
+			display: inline;
+			padding: 0 auto;
+			margin: 0 auto;
+		}
+
+		#main > div.construction i#constructionRight {
+			color: red;
+			display: inline;
+			text-align: center;
+			padding: 0 auto;
+			padding-top: 10px;
+			margin: 0 auto;
+			box-sizing: none;
+		}
+
 			#main > .posts > article {
 				border-color: #eeeeee;
 				border-left-width: 2px;
