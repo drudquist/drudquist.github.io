@@ -2549,12 +2549,6 @@ input, select, textarea {
 		color: #909498 !important;
 	}
 
-	video {
-		display: block;
-		margin: 2.5rem 0;
-		width: 100%;
-	}
-
 /* Icon */
 
 	.icon {
@@ -3751,17 +3745,6 @@ input, select, textarea {
 			margin-bottom: 0;
 		}
 
-		#nav #contact{
-			width: 2.25rem;
-			height: 2.25rem;
-			line-height: 2.25rem;
-			display: inline-block;
-			text-align: center;
-			border-radius: 100%;
-			font-size: 1.25rem;
-			border-bottom: none;
-		}
-
 		@media screen and (max-width: 980px) {
 
 			#nav {
@@ -3877,48 +3860,6 @@ input, select, textarea {
 				padding: 4rem;
 				width: 50%;
 			}
-
-			
-/* Construction */
-		#main > div.construction {
-			padding: 2rem;
-			width: 100%;
-			border-top: 2px solid gray;
-		}
-
-		#main > div.construction div.constructionChild {
-			display: flex;
-			justify-content: center;
-		}
-
-		#main > div.construction i#constructionLeft {
-			color: red;
-			display: inline;
-			text-align: center;
-			margin: 0 auto;
-			padding: 0 auto;
-			padding-top: 15px;
-			box-sizing: none;
-			font-size: 150%;
-		}
-
-		#main > div.construction p.construction {
-			display: inline;
-			padding: 0 auto;
-			margin: 0 auto;
-			font-size: 150%;
-		}
-
-		#main > div.construction i#constructionRight {
-			color: red;
-			display: inline;
-			text-align: center;
-			padding: 0 auto;
-			padding-top: 15px;
-			margin: 0 auto;
-			box-sizing: none;
-			font-size: 150%;
-		}
 
 			#main > .posts > article {
 				border-color: #eeeeee;
@@ -4553,8 +4494,7 @@ input, select, textarea {
 		display: none;
 		position: fixed;
 		top: 0.75rem;
-		left: 0.75rem;
-		right: auto;
+		right: 0.75rem;
 		border: 0;
 		color: #ffffff;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
@@ -4615,7 +4555,7 @@ input, select, textarea {
 		-moz-transform: translateX(20rem);
 		-webkit-transform: translateX(20rem);
 		-ms-transform: translateX(20rem);
-		transform: translateX(-20rem);
+		transform: translateX(20rem);
 		-moz-transition: -moz-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		-webkit-transition: -webkit-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		-ms-transition: -ms-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
@@ -4630,8 +4570,7 @@ input, select, textarea {
 		overflow-y: auto;
 		padding: 3rem 2rem;
 		position: fixed;
-		right: auto;
-		left: 0;
+		right: 0;
 		top: 0;
 		visibility: hidden;
 		width: 20rem;
@@ -4655,9 +4594,8 @@ input, select, textarea {
 					font-size: 0.9rem;
 					font-weight: 900;
 					letter-spacing: 0.075em;
-					padding: 0.75rem 1rem 0.75rem 0;
+					padding: 0.75rem 0;
 					text-transform: uppercase;
-					text-align: right;
 				}
 
 				#navPanel .links li:first-child {
@@ -4676,12 +4614,11 @@ input, select, textarea {
 			cursor: pointer;
 			display: block;
 			height: 3.25rem;
-			line-height: 4.25rem;
-			padding-left: 2.0rem;
+			line-height: 3.25rem;
+			padding-right: 1.25rem;
 			position: absolute;
-			left: 0;
-			right: auto;
-			text-align: left;
+			right: 0;
+			text-align: right;
 			top: 0;
 			vertical-align: middle;
 			width: 7rem;
