@@ -4676,8 +4676,8 @@ input, select, textarea {
 			cursor: pointer;
 			display: block;
 			height: 3.25rem;
-			line-height: 3.25rem;
-			padding-left: 1.25rem;
+			line-height: 4.25rem;
+			padding-left: 2.0rem;
 			position: absolute;
 			left: 0;
 			right: auto;
