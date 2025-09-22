@@ -12,7 +12,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
   <link rel="stylesheet" href="assets/css/main.css" />
   <noscript>
-    <link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <link rel="stylesheet" href="assets/css/noscript.css" />
+  </noscript>
+
+  <!-- Scoped CSS for Job History Section -->
+  <style>
+    #job-history {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      padding: 2rem;
+      background: #f9f9f9;
+      border-radius: 8px;
+    }
+
+    #job-history h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    #job-history summary {
+      cursor: pointer;
+      padding: 0.5rem;
+      background-color: #eee;
+      border-radius: 4px;
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+
+    #job-history details>details {
+      margin-left: 1.5rem;
+    }
+
+    #job-history ul {
+      margin-left: 2rem;
+      margin-top: 0.5rem;
+    }
+
+    #job-history li {
+      margin-bottom: 0.5rem;
+    }
+  </style>
 </head>
 
 <body class="is-preload">
@@ -25,40 +64,167 @@
       <a href="index.html" class="logo">Experience</a>
     </header>
 
-		<!-- Nav -->
-		<nav id="nav">
-			<ul class="links">
-				<li><a href="index.html">Homepage</a></li>
-				<li><a href="resume.html">Resume</a></li>
-				<li class="active"><a href="experience.html">Experience</a></li>
-				<li><a href="qtcreator.html">Qt Creator</a></li>
+    <!-- Nav -->
+    <nav id="nav">
+      <ul class="links">
+        <li><a href="index.html">Homepage</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li class="active"><a href="experience.html">Experience</a></li>
+        <li><a href="qtcreator.html">Qt Creator</a></li>
         <li><a href="hobbies.html">Hobbies</a></li>
         <li><a href="education.html">Education</a></li>
-			</ul>
-			<ul class="icons">
-				<li><a href="https://www.linkedin.com/in/drudquist/" class="icon brands fa-linkedin"><span
-							class="label">LinkedIn</span></a></li>
-				<li><a href="https://github.com/drudquist" class="icon brands fa-github"><span class="label">GitHub</span></a>
-				</li>
-				<li><a id="contact" href="mailto: donaldrudquist@gmail.com" class="fas fa-envelope-square"></a></li>
-			</ul>
-
-		</nav> <!-- End of #nav -->
+      </ul>
+      <ul class="icons">
+        <li><a href="https://www.linkedin.com/in/drudquist/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+        <li><a href="https://github.com/drudquist" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+        <li><a id="contact" href="mailto: donaldrudquist@gmail.com" class="fas fa-envelope-square"></a></li>
+      </ul>
+    </nav>
 
     <!-- Main -->
     <div id="main">
 
-      <div class="construction">
-        <div class="constructionChild">
-          <i id="constructionLeft" class="fas fa-exclamation-triangle"></i>
-          <p class="construction">Under Construction</p>
-          <i id="constructionRight" class="fas fa-exclamation-triangle"></i>
-        </div>
-      </div>
+      <!-- Job History Section -->
+      <section id="job-history">
 
-    </div>
+        <!-- Company 1 -->
+        <details open>
+          <summary><strong>First Orion</strong> — <em>Sep 2021 – Current</em></summary>
 
-  </div>
+          <!-- Position 1 -->
+          <details open>
+            <summary><strong>Associate Directory (Software Engineering)</strong> — <em>Dec 2023 – Current</em></summary>
+            <ul>
+              <li><strong>Responsibilities:</strong> Developed full-stack web applications using JavaScript and Python.</li>
+              <li><strong>Challenges Overcome:</strong> Legacy code refactoring, integration with outdated APIs.</li>
+              <li><strong>Skills Utilized:</strong> React, Django, PostgreSQL, Git, CI/CD pipelines.</li>
+              <li><strong>Improvements Made:</strong> Reduced load time by 40%, implemented unit testing coverage from 20% to 85%.</li>
+            </ul>
+          </details>
+
+          <!-- Position 2 -->
+          <details open>
+            <summary><strong>Team Leader</strong> — <em>Aug 2022 – Dec 2023</em></summary>
+            <ul>
+              <li><strong>Responsibilities:</strong> Assisted in backend development and bug fixing.</li>
+              <li><strong>Challenges Overcome:</strong> Learning curve of large codebase.</li>
+              <li><strong>Skills Utilized:</strong> PHP, MySQL, Git.</li>
+              <li><strong>Improvements Made:</strong> Improved internal documentation and onboarding process.</li>
+            </ul>
+          </details>
+
+          <!-- Position 3 -->
+          <details open>
+            <summary><strong>Senior Engineer</strong> — <em>Sep 2021 – Aug 2022</em></summary>
+            <ul>
+              <li><strong>Responsibilities:</strong> Assisted in backend development and bug fixing.</li>
+              <li><strong>Challenges Overcome:</strong> Learning curve of large codebase.</li>
+              <li><strong>Skills Utilized:</strong> PHP, MySQL, Git.</li>
+              <li><strong>Improvements Made:</strong> Improved internal documentation and onboarding process.</li>
+            </ul>
+          </details>
+        </details>
+
+        <!-- Company 2 -->
+        <details open>
+          <summary><strong>Science Logic</strong> — Software Engineer — <em>Oct 2020 – Aug 2021</em></summary>
+            <ul>
+              <li>Utilized C/C++ for application development on Windows and Linux systems.</li>
+              <li>Utilized Python for automation testing.</li>
+              <li>Developed in house tools allowing for the team to work efficiently.</li>
+              <li>Identified areas lacking in department management and crafted solutions.</li>
+              <li>Participated in code reviews highlighting potential erros and best practices.</li>
+              <li>Participated in cross team collaboration with application changes.</li>
+              <li>Worked with customers to identify/debug/solve application bugs.</li>
+              <li>Wrote technical documentation regarding application.</li>
+              <li>Refactored legacy software by improving code readability and flow design.</li>
+              <li>Lead resentations in company meetings.</li>
+              <li>Researched and presented programming best practices to the department.</li>
+            </ul>
+        </details>
+
+        <!-- Company 3 -->
+        <details open>
+          <summary><strong>King Show Games</strong> — Software Engineer — <em>Dec 2017 – May 2020</em></summary>
+            <ul>
+              <li>Utilized C++ for statistical and probability simulations and graphical presentations.</li>
+              <li>Refactored legacy application resulting in a 85% incease in efficiency.</li>
+              <li>Utilized test driven development and maintained 100% test coverage.</li>
+              <li>Identified and remidied scalability roadblocks in legacy software.</li>
+              <li>Improved legacy software flow design.</li>
+              <li>Utilized statistics and probability to find errors in logic.</li>
+              <li>Participated in code reviews to maintain standards and improve game design and tools.</li>
+              <li>Lead interdepartmental meetings discussing areas determined to be potentially problematic during development.</li>
+              <li>Developed new games in an efficent and mathematically accurate manner.</li>
+              <li>Researched and implemented latest programming trends to create efficiencies.</li>
+              <li>Deeloped in house tools allowing for the team to work efficiently.</li>
+              <li>Improved project manageaility via developing toosl to generate dynamic constructs.</li>
+              <li>Produced accurate estimates of development hours.</li>
+              <li>Collaborated with stakeholders to accomplish requirements and goals</li>
+            </ul>
+        </details>
+
+        <!-- Company 1 -->
+        <details open>
+          <summary><strong>Minnesota State University, Mankato</strong> — <em>Apr 2015 – May 2017</em></summary>
+
+          <!-- Position 1 -->
+          <details open>
+            <summary><strong>Physics Teacher's Assisant (Laborary Instructor)</strong> — <em>Apr 2015 – May 2017</em></summary>
+            <ul>
+              <li>Educate and demonstrate physics laboratory experiments.</li>
+              <li>Supervise labs and assist students with any questions.</li>
+              <li>Evaluate and grade student work and participation.</li>
+              <li>Facilitate timely communication between students and faculty.</li>
+              <li>Adapt teaching methods based on each student's individual needs and understanding.</li>
+              <li>Train new teacher assistants.</li>
+            </ul>
+          </details>
+
+          <!-- Position 2 -->
+          <details open>
+            <summary><strong>Particle Accelerator Technician</strong> — <em>May 2015 – May 2017</em></summary>
+            <ul>
+              <li><strong>AN 400 KeV Heavy Ion Accelerator</strong></li>
+              <li>Wrote startup procedure manual.</li>
+              <li>Monitored ion source conditioning.</li>
+              <li>Adjusted stepper motors for focus, gas and beam gauges.</li>
+              <li>Lead initiative for repairing beam focus.</li>
+              <li>Crafted solutions to find a vacuum leak in ion source by utilizing helium leak detector.</li>
+            </ul>
+            <ul>
+              <li><strong>KN 3 MeV Heavy Ion Accelerator</strong></li>
+              <li>Planned and prepared for assembly</li>
+              <li>Successfully mounted capacity column, alternator, charging belt, acceleration tube and equipotential rings.</li>
+            </ul>
+          </details>
+        </details>
+
+        <!-- Company 5 -->
+        <details open>
+          <summary><strong>EI Microcircuits</strong> — SMT Machine Operator — <em>Apr 2017 – Jul 2017</em></summary>
+            <ul>
+              <li>Utilized C++ for statistical and probability simulations and graphical presentations.</li>
+              <li>Refactored legacy application resulting in a 85% incease in efficiency.</li>
+              <li>Utilized test driven development and maintained 100% test coverage.</li>
+              <li>Identified and remidied scalability roadblocks in legacy software.</li>
+              <li>Improved legacy software flow design.</li>
+              <li>Utilized statistics and probability to find errors in logic.</li>
+              <li>Participated in code reviews to maintain standards and improve game design and tools.</li>
+              <li>Lead interdepartmental meetings discussing areas determined to be potentially problematic during development.</li>
+              <li>Developed new games in an efficent and mathematically accurate manner.</li>
+              <li>Researched and implemented latest programming trends to create efficiencies.</li>
+              <li>Deeloped in house tools allowing for the team to work efficiently.</li>
+              <li>Improved project manageaility via developing toosl to generate dynamic constructs.</li>
+              <li>Produced accurate estimates of development hours.</li>
+              <li>Collaborated with stakeholders to accomplish requirements and goals</li>
+            </ul>
+        </details>
+      </section>
+
+    </div> <!-- End of #main -->
+
+  </div> <!-- End of #wrapper -->
 
   <!-- Scripts -->
   <script src="assets/js/jquery.min.js"></script>
