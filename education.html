@@ -13,6 +13,44 @@
   <link rel="stylesheet" href="assets/css/main.css" />
   <noscript>
     <link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+  <!-- Scoped CSS for Job History Section -->
+  <style>
+    #school-history {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      padding: 2rem;
+      background: #f9f9f9;
+      border-radius: 8px;
+    }
+
+    #school-history h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    #school-history summary {
+      cursor: pointer;
+      padding: 0.5rem;
+      background-color: #eee;
+      border-radius: 4px;
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+
+    #school-history details>details {
+      margin-left: 1.5rem;
+    }
+
+    #school-history ul {
+      margin-left: 2rem;
+      margin-top: 0.5rem;
+    }
+
+    #school-history li {
+      margin-bottom: 0.5rem;
+    }
+  </style>
 </head>
 
 <body class="is-preload">
@@ -48,15 +86,58 @@
     <!-- Main -->
     <div id="main">
 
-      <div class="construction">
-        <div class="constructionChild">
-          <i id="constructionLeft" class="fas fa-exclamation-triangle"></i>
-          <p class="construction">Under Construction</p>
-          <i id="constructionRight" class="fas fa-exclamation-triangle"></i>
-        </div>
-      </div>
+      <!-- School History Section -->
+      <section id="school-history">
 
-    </div>
+        <!-- Company 1 -->
+        <details open>
+          <summary><strong>Minnesota State University, Mankato</strong> — <em>2013 – 2017</em></summary>
+
+          <!-- Position 1 -->
+          <details open>
+            <summary><strong>General</strong></summary>
+            <ul>
+              <li>Bachelors of Science in Physics, General</li>
+              <li>Undregrad Research: Radiation Dose Characterization of 400 KeV Heavy Ion Accelerator</li>
+              <li>Undergrad Research: Structural Characterization of Carbonaceous Meteriorites by micro-Raman Spectroscopy</li>
+            </ul>
+          </details>
+
+          <!-- Position 2 -->
+          <details open>
+            <summary><strong>Honors and Awards</strong></summary>
+            <ul>
+              <li>Research Grant - Structural characterization of Carbonaceous Meteorites by micro-Raman Spectroscopy - Issued by Minnesota State University, Mankato - Oct 2016</li>
+              <li>Research Grant - Radiation Dose Characterization of 400 KeV Heavy Ion Accelerator - Issued by Minnesota State University, Mankato - Oct 2015</li>
+            </ul>
+          </details>
+
+          <!-- Position 3 -->
+          <details open>
+            <summary><strong>Courses</strong></summary>
+            <ul>
+              <li>Calculus 1 & 2 & 3</li>
+              <li>Concepts of Probability and Statistics</li>
+              <li>Linear Algebra 1</li>
+              <li>Ordinary Differential Equations</li>
+              <li>Quantum Mechnaics</li>
+              <li>Statistical Physics</li>
+              <li>Electricity and Magnetism 1 & 2</li>
+              <li>Modern Physics 1 & 2</li>
+              <li>Optics</li>
+              <li>College Physics 1 & 2 & 3</li>
+              <li>Analytical Mechanics</li>
+              <li>Advanced Laboratory Techniques - Technical Writing Intensive</li>
+              <li>Computer Application - Modeling Physical Systems</li>
+              <li>Principles of Chemistry 1 & 2</li>
+              <li>Computer Graphics Communication (CAD)</li>
+              <li>Geometric Dimensioning and Tolerencing</li>
+              <li>Computer Science 1</li>
+            </ul>
+          </details>
+        </details>
+
+    </div> <!-- End of #main -->
 
   </div>
 
