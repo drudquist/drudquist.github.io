@@ -13,6 +13,44 @@
   <link rel="stylesheet" href="assets/css/main.css" />
   <noscript>
     <link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+  <!-- Scoped CSS for Job History Section -->
+  <style>
+    #school-history {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      padding: 2rem;
+      background: #f9f9f9;
+      border-radius: 8px;
+    }
+
+    #school-history h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    #school-history summary {
+      cursor: pointer;
+      padding: 0.5rem;
+      background-color: #eee;
+      border-radius: 4px;
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+
+    #school-history details>details {
+      margin-left: 1.5rem;
+    }
+
+    #school-history ul {
+      margin-left: 2rem;
+      margin-top: 0.5rem;
+    }
+
+    #school-history li {
+      margin-bottom: 0.5rem;
+    }
+  </style>
 </head>
 
 <body class="is-preload">
@@ -48,15 +86,48 @@
     <!-- Main -->
     <div id="main">
 
-      <div class="construction">
-        <div class="constructionChild">
-          <i id="constructionLeft" class="fas fa-exclamation-triangle"></i>
-          <p class="construction">Under Construction</p>
-          <i id="constructionRight" class="fas fa-exclamation-triangle"></i>
-        </div>
-      </div>
+      <!-- School History Section -->
+      <section id="school-history">
 
-    </div>
+        <!-- Company 1 -->
+        <details open>
+          <summary><strong>Minnesota State University, Mankato</strong> — <em>2013 – 2017</em></summary>
+
+          <!-- Position 1 -->
+          <details open>
+            <summary><strong>Associate Directory (Software Engineering)</strong> — <em>Dec 2023 – Current</em></summary>
+            <ul>
+              <li><strong>Responsibilities:</strong> Developed full-stack web applications using JavaScript and Python.</li>
+              <li><strong>Challenges Overcome:</strong> Legacy code refactoring, integration with outdated APIs.</li>
+              <li><strong>Skills Utilized:</strong> React, Django, PostgreSQL, Git, CI/CD pipelines.</li>
+              <li><strong>Improvements Made:</strong> Reduced load time by 40%, implemented unit testing coverage from 20% to 85%.</li>
+            </ul>
+          </details>
+
+          <!-- Position 2 -->
+          <details open>
+            <summary><strong>Team Leader</strong> — <em>Aug 2022 – Dec 2023</em></summary>
+            <ul>
+              <li><strong>Responsibilities:</strong> Assisted in backend development and bug fixing.</li>
+              <li><strong>Challenges Overcome:</strong> Learning curve of large codebase.</li>
+              <li><strong>Skills Utilized:</strong> PHP, MySQL, Git.</li>
+              <li><strong>Improvements Made:</strong> Improved internal documentation and onboarding process.</li>
+            </ul>
+          </details>
+
+          <!-- Position 3 -->
+          <details open>
+            <summary><strong>Senior Engineer</strong> — <em>Sep 2021 – Aug 2022</em></summary>
+            <ul>
+              <li><strong>Responsibilities:</strong> Assisted in backend development and bug fixing.</li>
+              <li><strong>Challenges Overcome:</strong> Learning curve of large codebase.</li>
+              <li><strong>Skills Utilized:</strong> PHP, MySQL, Git.</li>
+              <li><strong>Improvements Made:</strong> Improved internal documentation and onboarding process.</li>
+            </ul>
+          </details>
+        </details>
+
+    </div> <!-- End of #main -->
 
   </div>
 
