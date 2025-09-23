@@ -1,0 +1,21 @@
+Review Team Members Performance
+- Determine where they can improve
+- Determine where they excel
+- Find ways to help them imrpove
+
+Code Review
+- Evaluate Code
+- Define areas of improvement
+- Focus on Code REadability for Future readers
+- Focus on good programming practices with examples and Documentation
+- Give reasons for changes to help others learn
+
+
+Architectural Design
+- Cross Team collaboration
+- Wrote Technical Documentation
+- Created architecture diagrams and documentation for system flows, service responsibilities, and deployment models
+-Defined data flow strategies for multi-tier applications involving authentication servers, database layers, and frontend clients.
+- Collaborated with devops and backend teams to define API contracts and deployment strategies across multiple environments.
+- Designed scalable application architectures to support communication between microservices, APIs, and external servers using REST, WebSockets, or message queues (e.g., RabbitMQ, Kafka).
+- 
